@@ -19,7 +19,7 @@ import uuid
 st.set_page_config(page_title="RAG Project")
 
 # Chat Title
-st.title("RAG Project")
+st.title("RAG Project (model = llama3-8b-8192)")
 
 def load_api_keys():
     """Load API keys from environment variable if available else fetch keys from JSON file."""
